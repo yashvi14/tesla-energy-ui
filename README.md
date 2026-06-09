@@ -41,6 +41,7 @@ I went with React and Node.js because I'm most comfortable with this stack and w
 
 Beyond the minimum requirements, I added a few things to make the app more useful:
 
+**Custom Battery Icons** — each battery type has a unique SVG icon for easy visual identification
 - **Cost Breakdown Chart** — a bar chart that breaks down spending by battery type so users can see at a glance where the money is going
 - **PDF Export** — lets users download a full site summary report with battery config, budget, land, and energy details
 - **Reset Button** — clears the entire configuration in one click
