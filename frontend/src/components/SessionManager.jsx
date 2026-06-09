@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 
-const API = 'http://localhost:3001'
+const API = 'https://tesla-energy-backend.onrender.com'
 
 export default function SessionManager({ quantities, setQuantities }) {
     const [sessions, setSessions] = useState({})
