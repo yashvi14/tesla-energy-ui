@@ -66,7 +66,7 @@ That's it. Both the frontend and backend start together.
 ---
 
 ## Project Structure
-
+```
 tesla-energy-ui/
 ├── frontend/                   # React app (Vite)
 │   ├── src/
@@ -85,6 +85,7 @@ tesla-energy-ui/
 │   └── sessions.json                 # Auto-created when first session is saved
 ├── README.md
 └── package.json                      # Run everything from here
+```
 
 ---
 
