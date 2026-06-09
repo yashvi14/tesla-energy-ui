@@ -4,6 +4,14 @@ A web app that lets users plan and visualize an industrial battery site. The use
 
 ---
 
+🚀 Live Demo
+- **Website:** https://tesla-energy-ui.vercel.app
+- **GitHub:** https://github.com/yashvi14/tesla-energy-ui
+
+> Note: Backend is hosted on Render free tier. If Save Session is slow on first use, please wait ~50 seconds for it to wake up.
+
+---
+
 ## What it does
 
 - Select quantities for each battery type (MegapackXL, Megapack2, Megapack, PowerPack)
