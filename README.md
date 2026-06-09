@@ -66,3 +66,29 @@ That's it. Both the frontend and backend start together.
 ---
 
 ## Project Structure
+## Project Structure
+
+tesla-energy-ui/
+├── frontend/                   # React app (Vite)
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── BatteryForm.jsx       # Battery quantity inputs
+│   │   │   ├── SummaryPanel.jsx      # Cost, land, energy summary + PDF export
+│   │   │   ├── SiteLayout.jsx        # Auto-generated visual site layout
+│   │   │   ├── SessionManager.jsx    # Save and resume sessions
+│   │   │   └── CostChart.jsx         # Cost breakdown bar chart
+│   │   ├── App.jsx                   # Main app logic and state
+│   │   └── App.css                   # Styles
+│   ├── index.html
+│   └── vite.config.js
+├── backend/
+│   ├── server.js                     # Express server, session save/load
+│   └── sessions.json                 # Auto-created when first session is saved
+├── README.md
+└── package.json                      # Run everything from here
+
+---
+
+## Author
+
+Yashvi Viren Shah
